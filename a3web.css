@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+ /* Header image from Kayla - this needs to be fixed. Image currently not appearing on website properly but will have
+ a header image here 
+ source of image: https://www.rawpixel.com/image/3297487/free-photo-image-morocco-dune-africa */
+.headerimage { 
+	background-image: url("../images/rollingsands.jpg");
+	background-size: cover;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    
+
+} 
+/* end of Kayla */ 
+
+/**** Alex's section for the Interactive Map page : To be modified ***/
+
+h1 {color: green;}
+/* BEGIN java.html section, adjust as needed */
+/* customizes the before and after buttons on the java.html page */ 
+button{
+	border:4px solid darkblue;
+	padding: 2px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	padding: 5px 15px;
+	margin: auto;
+}
+
+/* div container adjusting indivudal images, tagged in the before and after Red Sea images */
+div.img{
+	border: 5px solid chocolate;
+	border-radius: 8px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 865px;
+	width: 520px;
+	
+}
+
+#javaText{
+	text-align: center;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* builds a container around the two buttons allowing to center them and give them padding */
+#container{
+	text-align: center;
+	padding: 10px;
+}
+
+/* determines both before and after button sizes to match one another */
+#buttonbefore{
+	width: 90px;
+}
+
+#buttonafter{
+	width: 90px;
+}
+
+/* determines map size on page with small border */
+#map{ 
+	height: 600px; 
+	width: 900px; 
+	margin: auto;
+	border: 5px solid darkblue;
+	border-radius: 8px;
+}
+/* END java.html section, adjust as needed */
